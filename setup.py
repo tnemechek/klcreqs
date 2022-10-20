@@ -5,6 +5,7 @@ if __name__ == "__main__":
         name="klcreqs",
         version="2022.10.20",
         description="library for streamlining api requests",
+        long_description="coming soon",
         readme="README.md",
         author='Thomas Nemechek',
         author_email='tnemechek@klcapital.com',

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: klcreqs
-Version: 2022.10.19
+Version: 2022.10.20
 Summary: library for streamlining api requests
 Home-page: UNKNOWN
 Author: Thomas Nemechek
@@ -9,5 +9,5 @@ License: UNKNOWN
 Platform: UNKNOWN
 Classifier: Programming Language :: Python
 
-UNKNOWN
+coming soon
 
