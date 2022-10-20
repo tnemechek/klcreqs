@@ -1,4 +1,6 @@
 language: python
+python:
+  - 3.9
 
 # Update pip to the latest version
 before_install:
@@ -14,6 +16,6 @@ script:
 deploy:
   provider: pypi
   username: "__token__"
-  password: "$PYPI_TOKEN"
+  password: "pypi-AgEIcHlwaS5vcmcCJDg1NDRlODZiLWY5NDktNGM5NS1hZmUxLTU3Y2M1ZGUyYjQ3MQACD1sxLFsia2xjcmVxcyJdXQACLFsyLFsiNjNmNGFlNTgtNmQ2Yy00MGIzLWIxMWYtMjY4NGFjMDFlODZhIl1dAAAGIH6Ol76C47mMaFaOlXvFxHSqKJPYH0rbyDEvx5iVDNZ-"
   on:
     branch: master
