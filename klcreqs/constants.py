@@ -13,7 +13,7 @@ import time
 import urllib
 import urllib.parse
 
-a = pd.read_csv('C:\KL_Capital Dropbox\Python\py4klc\a.csv')
+a = pd.read_csv(r'C:\KL_Capital Dropbox\Python\py4klc\a.csv')
 user_serial = a.loc[2,'a']
 key = a.loc[2,'b']
 authorization = (user_serial, key)
